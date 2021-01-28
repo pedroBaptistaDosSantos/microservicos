@@ -41,4 +41,16 @@ MAIL_FROM_ADDRESS=hello@example.com
 
 MAIL_FROM_NAME="Example app"
 
+DB_CONNECTION=mysql
+
+DB_HOST=127.0.0.1 <---- o servidor do seu banco de dados
+
+DB_PORT=3306 <----- a porta
+
+DB_DATABASE=homestead <---- o nome do bancode dados
+
+DB_USERNAME=homestead <------ o usuario 
+
+DB_PASSWORD=secret <----------- a senha
+
 
