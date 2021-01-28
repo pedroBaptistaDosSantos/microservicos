@@ -24,13 +24,21 @@ If you discover a security vulnerability within Lumen, please send an e-mail to 
 The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
 ## Configuração do arquivo .env: Insira os seguintes dados:
+
 MAIL_DRIVER=smtp
+
 MAIL_HOST=host_seu_email
+
 MAIL_PORT=587
+
 MAIL_USERNAME=seu_email
+
 MAIL_PASSWORD=sua_senha
+
 MAIL_ENCRYPTION=tls
+
 MAIL_FROM_ADDRESS=hello@example.com
+
 MAIL_FROM_NAME="Example app"
 
 
