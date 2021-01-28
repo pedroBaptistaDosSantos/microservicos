@@ -23,7 +23,7 @@ If you discover a security vulnerability within Lumen, please send an e-mail to 
 
 The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
-## Configuração do arquivo .env: Insira os seguintes dados:
+## Configuração do arquivo .env, insira os seguintes dados:
 
 MAIL_DRIVER=smtp
 
@@ -41,9 +41,12 @@ MAIL_FROM_ADDRESS=hello@example.com
 
 MAIL_FROM_NAME="Example app"
 
-DB_CONNECTION=mysql
+------------------------------------------------
+#Modifique tambem essas informações no seu arquivo .env
 
-DB_HOST=127.0.0.1 <---- o servidor do seu banco de dados
+DB_CONNECTION=mysql <---- sistema de gerenciamento de banco de dados
+
+DB_HOST=127.0.0.1 <---- o ip do servidor do seu banco de dados
 
 DB_PORT=3306 <----- a porta
 
